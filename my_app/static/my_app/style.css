@@ -1,0 +1,108 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/6c/96/c6/6c96c690466375fa46748ef01fa153d4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.form-control:focus {
+    border-color: #198754;
+    box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #198754;
+    border-color: #198754;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #155724;
+    border-color: #155724;
+}
+
+.modal-content {
+    border-radius: 0.5rem;
+}
+
+.modal-body svg {
+    width: 50px;
+    height: 50px;
+}
+.container {
+    max-width: 600px; /* Maksimal kenglikni kichikroq qilib qo'yish */
+    width: 90%; /* Yana kichikroq kenglik */
+    padding: 2rem; /* Ichki bo'shliq */
+    margin: 0 auto; /* Markazlashtirish */
+    background-color: rgba(0, 0, 0, 0.7); /* Yaxshi ko'rinish uchun */
+    border-radius: 0.5rem; /* Burchaklar yumshatilgan */
+}
+.modal-body h4 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.modal-body p {
+    margin-top: 1rem;
+}
+
+.btn-sm {
+    padding: 0.3rem 0.6rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+#responseContainer {
+    color:rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+}
+
+
+
+/* Modalni yaxshi ko'rinish uchun */
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.9); /* Modalning fon rangini qorong'i qilish */
+    color: #fff; /* Modaldagi matn rangini oq qilish */
+    border-radius: 0.5rem; /* Burchaklar yumshatilgan */
+}
+
+/* Modalning ichidagi SVG ikonalarni ranglarini o'zgartirish */
+.modal-body svg {
+    fill: none; /* To'ldirish rangini o'chirish */
+    stroke-width: 6;
+}
+
+.path.circle {
+    stroke: #db3646; /* Xato ikonasining rangini qizil qilish */
+}
+
+.path.line {
+    stroke: #db3646; /* Xato ikonasining rangini qizil qilish */
+}
+
+.path.check {
+    stroke: #198754; /* Muvaffaqiyat ikonasining rangini yashil qilish */
+}
+
+/* Modaldagi matnning yaxshiroq ko'rinishini ta'minlash */
+.modal-body h4 {
+    font-size: 1.5rem; /* Yozuv o'lchamini kattalashtirish */
+    margin-top: 1rem;
+}
+
+.modal-body p {
+    font-size: 1rem; /* Yozuv o'lchamini kattalashtirish */
+    margin-top: 1rem;
+}
